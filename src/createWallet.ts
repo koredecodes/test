@@ -4,7 +4,7 @@ import dotenv from "dotenv"
 dotenv.config()
 
 const BASE_RPC = "https://mainnet.base.org"
-const FACTORY_ADDRESS = "0x2c2Eac275D4842516C95F68d021a2B894D4D615a"
+const FACTORY_ADDRESS = "0x03fbc42fC2c67484b23CB44D0046682Aae920a7A"
 
 const FACTORY_ABI = [
   "function deploy(address owner1, address owner2, bytes32 salt) returns (address)",
